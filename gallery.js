@@ -13,16 +13,13 @@ const lifeEditPhotos = [
   type: "my moments",
   image: "images/20220903_130712.jpg"
 },
-   { title: "flower market mornings", note: "a bouquet makes everything better", category: "flowers", type: "inspiration", image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=85" },
-  { title: "one more coffee, please", note: "finding the cutest corners", category: "cafés", type: "inspiration", image: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=85" },
-  { title: "clay days", note: "a little messy, a lot of fun", category: "pottery", type: "inspiration", image: "https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?w=800&q=85" },
-  { title: "out of office", note: "collecting places, not things", category: "travel", type: "inspiration", image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=85" },
-  { title: "the slow mornings edit", note: "a little time for myself", category: "self-care", type: "inspiration", image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=85" },
-  { title: "little home details", note: "beautiful spaces with personality", category: "interiors", type: "inspiration", image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=85" },
-  { title: "beauty shelf diaries", note: "trying something new, always", category: "beauty", type: "inspiration", image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&q=85" },
-  { title: "made with love", note: "something delicious is happening", category: "cooking", type: "inspiration", image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=85" },
-  // EXAMPLE PERSONAL PHOTO: uncomment and replace the filename after uploading the photo.
-  // { title: "my favorite weekend", note: "a little moment to remember", category: "my life", type: "my moments", image: "images/my-weekend.jpg" },
+{
+  title: "chasing sunsets & little joys 🌅",
+  note: "golden skies, happy moments, and a little bit of magic ♡",
+  category: "my life",
+  type: "my moments",
+  image: "images/Me.jpeg"
+},
 ];
 
 const gallery = document.getElementById("world-grid");
