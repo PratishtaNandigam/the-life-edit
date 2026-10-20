@@ -6,16 +6,16 @@
    IMPORTANT: sample images are inspiration only; none are represented as Lucky's real photos.
 */
 const lifeEditPhotos = [
-  {"title": "a little piece of paradise 🌴", "note": "blue skies, palm trees & the little moments I love ♡", "category": "travel", "type": "my moments", "image": "images/20220903_130712.jpg"},
-  {"title": "chasing sunsets & little joys 🌅", "note": "golden skies, happy moments, and a little bit of magic ♡", "category": "my life", "type": "my moments", "image": "images/Me.jpeg"},
+  {"title": "a little piece of paradise 🌴", "note": "blue skies, palm trees & the little moments I love ♡", "category": "travel", "type": "creative finds", "image": "images/20220903_130712.jpg"},
+  {"title": "chasing sunsets & little joys 🌅", "note": "golden skies, happy moments, and a little bit of magic ♡", "category": "my life", "type": "creative finds", "image": "images/Me.jpeg"},
   {"title": "little details, big feelings", "note": "the tiny things that make an outfit feel like me ♡", "category": "style", "type": "my moments", "image": "images/little-details.jpeg"},
   {"title": "a little sparkle", "note": "pink, gold & all the pretty details ✨", "category": "style", "type": "my moments", "image": "images/pink-and-gold.jpeg"},
-  {"title": "daisy days", "note": "a flower for every mood 🌼", "category": "flowers", "type": "my moments", "image": "images/daisy-days.jpeg"},
+  {"title": "daisy days", "note": "a flower for every mood 🌼", "category": "flowers", "type": "creative finds", "image": "images/daisy-days.jpeg"},
   {"title": "sunshine in a handful", "note": "tiny blooms, big joy ♡", "category": "flowers", "type": "my moments", "image": "images/yellow-flowers.jpeg"},
   {"title": "meet me by the water", "note": "soft skies & nowhere else to be", "category": "travel", "type": "my moments", "image": "images/waterfront-evening.jpeg"},
   {"title": "the accessories edit", "note": "a little sunshine on my favorite things", "category": "style", "type": "my moments", "image": "images/little-accessories.jpeg"},
   {"title": "flowers, always", "note": "some days just need a bouquet ♡", "category": "flowers", "type": "my moments", "image": "images/pink-flowers.jpeg"},
-  {"title": "collecting sunsets", "note": "the sky putting on a show again ✳", "category": "travel", "type": "my moments", "image": "images/sunset-walk.jpeg"},
+  {"title": "collecting sunsets", "note": "the sky putting on a show again ✳", "category": "travel", "type": "creative finds", "image": "images/sunset-walk.jpeg"},
   {"title": "a moment in bloom", "note": "finding beauty in the little things 🌸", "category": "flowers", "type": "my moments", "image": "images/spring-blossoms.jpeg"},
   {"title": "a little moving memory 🎞", "note": "press play to relive the moment ♡", "category": "my life", "type": "my moments", "video": "images/little-memory.mp4", "image": "images/little-memory-cover.jpg"},
 ];
