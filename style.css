@@ -10,3 +10,17 @@
 .about-photo img{object-position:center}
 @media(max-width:900px){.about{gap:45px}.about-copy p{line-height:1.8}}
 @media(max-width:720px){.about-tags span{font-size:11px;padding:8px 11px}}
+
+/* My Little World — Pinterest-inspired, responsive scrapbook */
+.little-world{padding-top:90px;padding-bottom:110px}
+.world-intro{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding-top:17px;margin-bottom:26px;color:#a46d70;font-family:'Playfair Display',serif;font-style:italic;font-size:14px}
+.world-filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.world-filter{font:600 12px 'DM Sans',sans-serif;background:transparent;border:1px solid #d7bcb4;color:var(--brown);border-radius:99px;padding:11px 19px;cursor:pointer;transition:background .2s,transform .2s}
+.world-filter:hover{transform:translateY(-2px)}.world-filter.active{background:#d9aead;border-color:#d9aead;color:#fff}
+.world-grid{columns:4;column-gap:16px}.world-card{display:inline-block;break-inside:avoid;width:100%;padding:0;margin:0 0 17px;background:#fffdf9;border:0;border-radius:14px;overflow:hidden;text-align:left;cursor:pointer;box-shadow:0 3px 15px #654e4410;transition:transform .2s,box-shadow .2s}
+.world-card:hover{transform:translateY(-4px);box-shadow:0 12px 24px #654e4420}.world-card img{width:100%;height:auto;min-height:170px;max-height:420px;object-fit:cover;aspect-ratio:3/4}
+.world-card:nth-child(3n) img{aspect-ratio:4/5}.world-card:nth-child(4n) img{aspect-ratio:1/1}
+.world-card-info{padding:14px 14px 18px;display:flex;flex-direction:column;gap:6px}.world-card-label{font-size:10px;color:#af7b7d;letter-spacing:.07em;text-transform:uppercase}.world-card strong{font-family:'Playfair Display',serif;font-size:19px;font-weight:500;line-height:1.25}.world-card-note{font-size:11px;color:var(--muted);line-height:1.5}
+.world-note,.world-empty{color:var(--muted);font-size:12px;line-height:1.7}.world-note{margin-top:17px}.world-note code{background:#f2e4dd;padding:2px 5px;border-radius:4px}
+.world-lightbox{position:fixed;max-width:min(650px,92vw);max-height:90vh;border:0;border-radius:18px;padding:12px;background:var(--paper);box-shadow:0 22px 80px #30201b77;color:var(--brown)}.world-lightbox::backdrop{background:#291c1bcc;backdrop-filter:blur(4px)}.world-lightbox img{max-height:68vh;width:auto;max-width:100%;margin:auto;object-fit:contain;border-radius:8px}.lightbox-close{position:absolute;right:20px;top:20px;background:#fff;border:0;border-radius:50%;width:34px;height:34px;cursor:pointer}.lightbox-caption{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;padding:13px 6px 4px;font-size:12px;color:var(--muted)}#lightbox-title{font-family:'Playfair Display',serif;font-size:20px;color:var(--brown)}
+@media(max-width:1000px){.world-grid{columns:3}}@media(max-width:720px){.world-grid{columns:2;column-gap:12px}.world-card{margin-bottom:12px}.world-card-info{padding:12px}.world-card strong{font-size:16px}.world-intro{flex-direction:column;gap:3px}.little-world{padding-top:65px;padding-bottom:70px}}@media(max-width:430px){.world-grid{columns:2}.world-card img{min-height:120px}.world-filter{padding:9px 13px;font-size:11px}}
