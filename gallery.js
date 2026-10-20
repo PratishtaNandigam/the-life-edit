@@ -6,7 +6,14 @@
    IMPORTANT: sample images are inspiration only; none are represented as Lucky's real photos.
 */
 const lifeEditPhotos = [
-  { title: "flower market mornings", note: "a bouquet makes everything better", category: "flowers", type: "inspiration", image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=85" },
+  {
+  title: "a little piece of paradise 🌴",
+  note: "blue skies, palm trees & the little moments I love ♡",
+  category: "travel",
+  type: "my moments",
+  image: "images/20220903_130712.jpg"
+},
+   { title: "flower market mornings", note: "a bouquet makes everything better", category: "flowers", type: "inspiration", image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=85" },
   { title: "one more coffee, please", note: "finding the cutest corners", category: "cafés", type: "inspiration", image: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800&q=85" },
   { title: "clay days", note: "a little messy, a lot of fun", category: "pottery", type: "inspiration", image: "https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?w=800&q=85" },
   { title: "out of office", note: "collecting places, not things", category: "travel", type: "inspiration", image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=85" },
